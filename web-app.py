@@ -1,8 +1,6 @@
 import streamlit as st
 from PIL import Image
 from ultralytics import YOLO
-import cv2
-import numpy as np
 
 #@st.cache_data()
 

@@ -24,6 +24,12 @@ video.py (real-time)
 model = YOLO('best.pt') #load current model
 results = model.predict(source='0', show=True, conf=0.7) #use source '0' for camera input
 ```
+
+## Prototype
+[Prototype](https://deguzmankarladrian-crack-detection-web-app-uki2w3.streamlit.app/) was deployed in streamlit using github
+
+To run in local: 
+
 web-app.py
 ```
 model = YOLO('best.pt') #load current model
